@@ -11,7 +11,4 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.2 (/usr/bin/python3.6)" project-jdk-type="Python SDK" />
-  <component name="PyConsoleOptionsProvider">
-    <option name="myShowDebugConsoleByDefault" value="true" />
-  </component>
 </project>

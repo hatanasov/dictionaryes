@@ -1,4 +1,6 @@
-real_nums = [num for num in input().split()]
+from collections import OrderedDict
+
+real_nums = [float(num) for num in input().split()]
 
 counts = {}
 
@@ -8,5 +10,7 @@ for num in real_nums:
     else:
         counts[num] += 1
 
-for key, value in counts.items():
+ordered_counts = OrderedDict(sorted(counts.items()))
+
+for key, value in ordered_counts.items():
     print(key, '->', value, 'times')

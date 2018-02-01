@@ -11,4 +11,4 @@ for word in words:
 
 result = [word for word in word_occur if word_occur[word] % 2 == 1]
 
-print(*result)
+print(*result, sep=', ')
